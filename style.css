@@ -2,30 +2,76 @@ html {
     position: relative;
     width: 100%;
     background: #000000;
-    padding: 0;
-    font-family: 'Urbanist', sans-serif;
-    color: white;
+    padding: 50px 0px 0px 0px;
+    font-family: 'Spartan', sans-serif;
+    color: #a8a8a8;
+}
+
+p {
+    text-align: center;
 }
 
 body {
     background-color: black;
+    padding: 0px 0px 50px 0px;
+}
+
+.release-half {
+    width: 50%;
+    padding: 20px 0px 20px 0px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.rel-link {
+    width: 200px;
+    height: 200px;
 }
 
 header .title {
-    color: white;
+    color: #a8a8a8;
     text-align: center;
     height: 100%;
-    padding: 100px;
+    padding: 50px 0px 30px 0px;
     font-size: 80px;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Spartan', sans-serif;
 }
 
 nav {
     position: relative;
-
-    color: white;
+    color: #a8a8a8;
     width: 100%;
-    height: 50px;
+    padding: 20px 0px 50px 0px;
+}
+
+footer {
+    position: static;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-size: 20px;
+    height: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
 }
 
 .centered {
@@ -35,11 +81,18 @@ nav {
 
 .button {
     position: relative;
-    color: white;
+    color: #a8a8a8;
     float: left;
     display: block;
     width: 25%;
     height: 100%;
+    text-align: center;
+}
+
+.button2 {
+    position: relative;
+    color: #a8a8a8;
+    display: block;
     text-align: center;
 }
 
@@ -56,15 +109,15 @@ nav .button {
 }
 
 @keyframes hoverFading {
-    0% {color: white;}
+    0% {color: #a8a8a8;}
 }
 
 @-webkit-keyframes hoverFading {
-    0% {color: white;}
+    0% {color: #a8a8a8;}
 }
 
 nav .active:hover{
-	color: white;
+	color: #a8a8a8;
 	cursor: default;
 }
 
@@ -76,10 +129,11 @@ nav .active:hover{
 }
 
 a:hover {
-    color:#7a36bf
+    color:#7a36bf;
+    text-decoration: none;
 }
 
-a:active { /* selected link */
-	color: white;
+a:active { /*selected link */
+	color: #a8a8a8;
 	text-decoration: none;
 }
